@@ -42,10 +42,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="OLw-Fn-SKG" userLabel="Menu Stack View">
-                                <rect key="frame" x="0.0" y="119" width="365" height="32"/>
+                                <rect key="frame" x="0.0" y="119" width="320" height="32"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AfM-kU-hLf">
-                                        <rect key="frame" x="0.0" y="0.0" width="73" height="32"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="64" height="32"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <state key="normal" title="FOOD">
@@ -53,7 +53,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Anw-uS-GCa">
-                                        <rect key="frame" x="73" y="0.0" width="73" height="32"/>
+                                        <rect key="frame" x="64" y="0.0" width="64" height="32"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <state key="normal" title="SHOP">
@@ -61,7 +61,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OY2-Hf-DTk">
-                                        <rect key="frame" x="146" y="0.0" width="73" height="32"/>
+                                        <rect key="frame" x="128" y="0.0" width="64" height="32"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <state key="normal" title="AUTO">
@@ -69,7 +69,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIl-c3-OLr">
-                                        <rect key="frame" x="219" y="0.0" width="73" height="32"/>
+                                        <rect key="frame" x="192" y="0.0" width="64" height="32"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <state key="normal" title="PAYMENT">
@@ -77,7 +77,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLC-va-Lqs">
-                                        <rect key="frame" x="292" y="0.0" width="73" height="32"/>
+                                        <rect key="frame" x="256" y="0.0" width="64" height="32"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <state key="normal" title="FUN">
@@ -221,6 +221,7 @@
                             <constraint firstItem="OLw-Fn-SKG" firstAttribute="top" secondItem="I77-8C-4UY" secondAttribute="bottom" constant="38" id="lFr-kR-RVF"/>
                             <constraint firstItem="RGg-5p-UbZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="m1C-k4-0DR"/>
                             <constraint firstItem="N4D-AA-To8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="so5-fk-rvj"/>
+                            <constraint firstAttribute="trailing" secondItem="OLw-Fn-SKG" secondAttribute="trailing" id="vlF-ZR-CHV"/>
                         </constraints>
                     </view>
                 </viewController>
